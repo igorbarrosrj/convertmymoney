@@ -5,5 +5,10 @@
     ],
     "routers":[
         {"src": "/.*", "dest": "index.js"} 
-    ]
+    ],
+
+         "github": {
+          "autoAlias": false
+        }
+      
 }
