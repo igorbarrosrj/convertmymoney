@@ -4,15 +4,15 @@
   "description": "convertmymoney",
   "main": "index.js",
   "scripts": {
-  "test": "jest",
-  "start": "node index.js"
-    
+    "test": "jest",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.0.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "now-client": "^6.0.0"
   },
   "devDependencies": {
     "jest": "^24.9.0"
