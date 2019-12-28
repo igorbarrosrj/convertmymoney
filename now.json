@@ -3,12 +3,8 @@
     "build": [
         {"src": "index.js", "use": "@now/node-server" }
     ],
-    "routers":[
+    "routes":[
         {"src": "/.*", "dest": "index.js"} 
-    ],
-
-         "github": {
-          "autoAlias": false
-        }
-      
+    ]
+    
 }
