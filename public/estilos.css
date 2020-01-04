@@ -1,5 +1,11 @@
 body{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #082767;
+    color: #0e0e0e;
+    padding-top: 3em;
 }
 
 h1 img{
@@ -18,14 +24,31 @@ button{
 
     border: 1px solid #000000;
     background: #d8d8d8;
-    font-size: 20px;
+    font-size: 24px;
     margin: 10px;
+    
  
     
 }
-.result{
+.result {
     padding: 10px;
     border: 1px solid #d8d8d8;
-    background: #fdfdfd
+    color: #000;
+    background: #fdfdfd;
+  }
 
-}
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    background: #f7f7f7;
+    padding: 50px 5px 100px 5px ;
+    margin: 16px 0;
+    border-radius: 8px;
+  }
+
+
+
+ 
